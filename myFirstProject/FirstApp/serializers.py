@@ -9,6 +9,6 @@ class userContactSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = userContact
-        fields = ['name', 'email', 'phone']
+        fields = ["id", 'name', 'email', 'phone']
 
 # //views

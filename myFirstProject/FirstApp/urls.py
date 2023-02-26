@@ -4,6 +4,7 @@ from FirstApp import views
 
 urlpatterns = [
     path('getUserInfo/', views.getUserInfo),
+    path('getUserInfoDetail/<int:pk>/', views.getUserInfoDetail),
 ]
 
 # Path: myFirstProject\FirstApp\urls.py
